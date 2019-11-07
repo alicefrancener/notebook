@@ -1,6 +1,7 @@
 ---
-title: :octocat: Boas práticas de mensagens de commit
+title: Boas práticas de mensagens de commit
 ---
+
 
 [Escrevendo...]
 
