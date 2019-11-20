@@ -1,0 +1,20 @@
+menu:
+    Blog: /blog/
+    GitHub: https://github.com/alicefrancener
+    Archive: blog/archives/
+    Feed: atom.xml
+
+favicon: favicon.png
+logo: favicon.png
+
+# Comment
+disqus:
+
+# Analytics
+# ga: UA-xxxxxxxx-x
+
+# Copyright Infomation
+startyear: 2019
+
+# Image Credits
+enable_image_credit: true 
