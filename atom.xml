@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Houston, we&#39;ve had a problem</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://alicefrancener.github.io/"/>
+  <updated>2019-11-20T02:39:39.790Z</updated>
+  <id>https://alicefrancener.github.io/</id>
+  
+  <author>
+    <name>Alice Francener</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Boas práticas de mensagens de commit</title>
+    <link href="https://alicefrancener.github.io/2019/11/20/commit-messages/"/>
+    <id>https://alicefrancener.github.io/2019/11/20/commit-messages/</id>
+    <published>2019-11-20T02:39:39.790Z</published>
+    <updated>2019-11-20T02:39:39.790Z</updated>
+    
+    <content type="html"><![CDATA[<p>[Escrevendo…]</p><h2 id="Adotar-padroes"><a href="#Adotar-padroes" class="headerlink" title="Adotar padrões"></a>Adotar padrões</h2><p>Adotar uma convenção ou padrão pessoal é uma boa prática para manter organizado o log das mensagens de commit. Uma convençaõ legal é a criada/adotada pelo , o padrão de uma mensagem de commit deve ser:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="built_in">type</span>&gt;[optional scope]: &lt;description&gt;</span><br><span class="line"></span><br><span class="line">[optional body]</span><br><span class="line"></span><br><span class="line">[optional footer]</span><br></pre></td></tr></table></figure><p>O <code>type</code> e a <code>description</code> são obrigatórias, os demais campos são opcionais.</p><p><code>type</code>pode ser:</p><ul><li>feat (new feature)</li><li>fix (bug fix)</li><li>docs (changes to documentation)</li><li>style (formatting, missing semi colons, etc; no code change)</li><li>refactor (refactoring production code)</li><li>test (adding missing tests, refactoring tests; no production code change)</li><li>chore (updating grunt tasks etc; no production code change)</li></ul><h2 id="Utilizar-imperativo-nas-mensagens"><a href="#Utilizar-imperativo-nas-mensagens" class="headerlink" title="Utilizar imperativo nas mensagens"></a>Utilizar imperativo nas mensagens</h2><h2 id="Criar-commit-para-cada-mudanca-“individual”"><a href="#Criar-commit-para-cada-mudanca-“individual”" class="headerlink" title="Criar commit para cada mudança “individual”"></a>Criar commit para cada mudança “individual”</h2><h2 id="Fechar-issues-pull-requests-com-sua-mensagem-de-commit"><a href="#Fechar-issues-pull-requests-com-sua-mensagem-de-commit" class="headerlink" title="Fechar issues/pull requests com sua mensagem de commit"></a>Fechar issues/pull requests com sua mensagem de commit</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;[Escrevendo…]&lt;/p&gt;
+&lt;h2 id=&quot;Adotar-padroes&quot;&gt;&lt;a href=&quot;#Adotar-padroes&quot; class=&quot;headerlink&quot; title=&quot;Adotar padrões&quot;&gt;&lt;/a&gt;Adotar padrões&lt;/h2&gt;&lt;p&gt;A
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://alicefrancener.github.io/2019/11/20/hello-world/"/>
+    <id>https://alicefrancener.github.io/2019/11/20/hello-world/</id>
+    <published>2019-11-20T02:39:39.790Z</published>
+    <updated>2019-11-20T02:39:39.790Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
