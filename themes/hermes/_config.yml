@@ -1,8 +1,8 @@
 menu:
-    Blog: /blog/
+    Blog: /
     GitHub: https://github.com/alicefrancener
-    Archive: blog/archives/
-    Feed: atom.xml
+    Archive: archives/
+    Tags: tags/
 
 favicon: favicon.png
 logo: favicon.png
