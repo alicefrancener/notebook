@@ -20,7 +20,7 @@ git merge sub-projeto/master --allow-unrelated-histories
 
 Nesse ponto, os repositórios foram combinados.
 
-!!! Uma dica para evitar conflitos entre arquivos é dar uma verificada antes nos dois repositórios que serão combinados. Geralmente arquivos que estão na raiz como `.gitignore`, `LICENSE` and `README` geram conflitos; eles podem ser renomeados ou movidos para outra pasta antes do `merge`.
+:bulb: Uma dica para evitar conflitos entre arquivos é verificar antes os dois repositórios que serão combinados. Geralmente arquivos que estão na raiz como `.gitignore`, `LICENSE` and `README` geram conflitos, pois existem nos dois repositórios; eles podem ser renomeados ou movidos para outra pasta antes do `merge`.
 
 ---
 
