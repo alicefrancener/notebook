@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://alicefrancener.github.io/"/>
-  <updated>2020-02-06T18:36:02.152Z</updated>
+  <updated>2020-02-06T18:41:02.001Z</updated>
   <id>https://alicefrancener.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://alicefrancener.github.io/2020/01/17/git-merge-repos/"/>
     <id>https://alicefrancener.github.io/2020/01/17/git-merge-repos/</id>
     <published>2020-01-17T00:00:00.000Z</published>
-    <updated>2020-02-06T18:36:02.152Z</updated>
+    <updated>2020-02-06T18:41:02.001Z</updated>
     
     <content type="html"><![CDATA[<p>Considerando que há dois repositórios que você deseja unir (<em>merge</em>), <code>sub-projeto</code> e <code>projeto</code>:</p><p>Entre no repositório no qual você quer combinar com o outro (ex.: dentro de <code>projeto</code> irei combinar o repo <code>sub-projeto</code>).</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add -f sub-projeto git@github.com:username/sub-projeto.git</span><br></pre></td></tr></table></figure><p>Combine os repositórios.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge sub-projeto/master --allow-unrelated-histories</span><br></pre></td></tr></table></figure><p>Nesse ponto, os repositórios foram combinados.</p><p>:bulb: Uma dica para evitar conflitos entre arquivos é verificar antes os dois repositórios que serão combinados. Geralmente arquivos que estão na raiz como <code>.gitignore</code>, <code>LICENSE</code> and <code>README</code> geram conflitos, pois existem nos dois repositórios; eles podem ser renomeados ou movidos para outra pasta antes do <code>merge</code>.</p><hr><p><small>Fonte: <a href="https://medium.com/altcampus/how-to-merge-two-or-multiple-git-repositories-into-one-9f8a5209913f" target="_blank" rel="noopener">How to merge two or multiple git repositories into one</a><small></p>]]></content>
     
@@ -42,11 +42,36 @@
   </entry>
   
   <entry>
+    <title>Ler conteúdo de um arquivo no terminal do Linux</title>
+    <link href="https://alicefrancener.github.io/2020/01/17/linux-ler-conteudo-arquivo/"/>
+    <id>https://alicefrancener.github.io/2020/01/17/linux-ler-conteudo-arquivo/</id>
+    <published>2020-01-17T00:00:00.000Z</published>
+    <updated>2020-02-06T18:41:02.001Z</updated>
+    
+    <content type="html"><![CDATA[<p>Para ler o conteúdo de arquivos no terminal, utilizar algum dos comandos a seguir:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ler todo o conteúdo de um arquivo</span></span><br><span class="line">cat arquivo.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># ler somente 10 primeiras linhas do arquivo</span></span><br><span class="line">head arquivo.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># ler 3 primeiras linhas do arquivo (-n permite especificar o número de linhas)</span></span><br><span class="line">head -n 3 arquivo.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># ler 10 últimas linhas do arquivo</span></span><br><span class="line">tail arquivo.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># ler 5 últimas linhas do arquivo (-n permite especificar o número de linhas)</span></span><br><span class="line">tail -n 5 arquivo.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># navegar pelo texto com as setas do teclado (para sair, usar tecla q)</span></span><br><span class="line">less arquivo.txt</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Para ler o conteúdo de arquivos no terminal, utilizar algum dos comandos a seguir:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td clas
+      
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://alicefrancener.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="https://alicefrancener.github.io/2019/10/24/hello-world/"/>
     <id>https://alicefrancener.github.io/2019/10/24/hello-world/</id>
     <published>2019-10-24T00:00:00.000Z</published>
-    <updated>2020-02-06T18:36:02.152Z</updated>
+    <updated>2020-02-06T18:41:02.001Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
