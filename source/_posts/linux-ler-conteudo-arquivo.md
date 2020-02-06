@@ -1,6 +1,6 @@
 ---
 title: Ler conteúdo de um arquivo no terminal do Linux
-date: 2020-01-17
+date: 2020-02-06
 tags: linux
 ---
 
